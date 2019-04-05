@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Практика JavaScript для новичков</title>
+
+</head>
+<body>
+
+<h1 class="h1">Практика JavaScript для новичков</h1>
+
+<!-- Task 1 -->
+
+<div id="task1">
+  <h2 class="title">1. Даны 3 инпута и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и запишите их
+    сумму в четвертый инпут.</h2>
+
+  <input type="text" name="inputNumber" value="1">
+  <input type="text" name="inputNumber" value="1">
+  <input type="text" name="inputNumber" value="1">
+  <button>Результат</button>
+  <input type="text" name="result" value="">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 2 -->
+
+<div id="task2">
+  <h2 class="title">2. Даны N инпутов с классом .num и кнопка. По нажатию на кнопку получите числа, стоящие в этих
+    инпутах
+    и запишите их сумму в абзац с id="result".</h2>
+
+  <input type="text" name="inputNumber" class="num" value="10">
+  <input type="text" name="inputNumber" class="num" value="11">
+  <input type="text" name="inputNumber" class="num" value="12">
+  <button>Результат</button>
+  <p class="result"></p>
+</div>
+
+<hr>
+<br>
+
+<!-- Task 3 -->
+
+<div id="task3">
+  <h2 class="title">3. Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр этого числа.</h2>
+
+  <input type="text" name="inputNumber" class="num">
+  <p class="result">Сумма цифр в инпуте = <span></span></p>
+</div>
+
+<hr>
+<br>
+
+<!-- Task 4 -->
+
+<div id="task4">
+  <h2 class="title">4. Дан инпут. В него вводятся числа через запятую. По потери фокуса найдите среднее арифметическое
+    этих
+    чисел (сумма делить на количество).</h2>
+
+  <input type="text" name="inputNumber" class="num">
+  <p class="result">Среднее арефметическое цифр = <span></span></p>
+</div>
+
+<hr>
+<br>
+
+<!-- Task 5 -->
+
+<div id="task5">
+  <h2 class="title">5. Дан инпут. В него вводится ФИО через пробел. По потери фокуса запишите фамилию, имя и отчество в
+    отдельные инпуты.</h2>
+
+  <input type="text" name="fullName" class="num">
+  <input type="text" name="name">
+  <input type="text" name="name">
+  <input type="text" name="name">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 6 -->
+
+<div id="task6">
+  <h2 class="title">6. Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы. Сделайте так, чтобы
+    по
+    потери фокуса инпутом, введенные фамилия, имя и отчество автоматически стали записанными с большой буквы (в том же
+    инпуте). </h2>
+
+  <input type="text" name="fullName">
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 7 -->
+
+<div id="task7">
+  <h2 class="title">7. Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте.</h2>
+
+  <input type="text" name="text">
+  <p class="result">Слов в инпуте = <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 8 -->
+
+<div id="task8">
+  <h2 class="title">8. Дан инпут. В него вводится текст. По потери фокуса узнайте количество символов в самом длинном
+    слове в этом тексте. </h2>
+
+  <input type="text" name="symbols">
+  <p class="result">В самом длинном слове символов = <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 9 -->
+
+<div id="task9">
+  <h2 class="title">9. Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса в этом же инпуте поставьте
+    эту дату в формате 2016-12-31.</h2>
+
+  <input type="text" name="data" placeholder="31.12.2016">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 10 -->
+
+<div id="task10">
+  <h2 class="title">10. Дан инпут. В него вводится год рождения пользователя. По нажатию на кнопку выведите в абзац ниже
+    сколько пользователю лет.</h2>
+
+  <input type="text" name="data" placeholder="Введите год рождения">
+  <button>Узнать</button>
+  <p class="result">Возраст пользователя = <span></span></p>
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 11 -->
+
+<div id="task11">
+  <h2 class="title">11. Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса узнайте день недели
+    (словом), который приходится на эту дату.</h2>
+
+  <input type="text" name="date" placeholder="Дата в формате 31.12.2016">
+  <p class="result">День недели = <span></span></p>
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 12 -->
+
+<div id="task12">
+  <h2 class="title">12. Дан инпут. В него вводится слово. По нажатию на кнопку проверьте то, что это слово читается с
+    начала и с конца одинаково (например, мадам).</h2>
+
+  <input type="text" name="mirror" placeholder="мадам">
+  <button>Узнать</button>
+  <p class="result">Зеркально ли слово? - <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 13 -->
+
+<div id="task13">
+  <h2 class="title">13. Дан инпут. В него вводится число. Проверьте по вводу, что это число содержит внутри себя цифру
+    3</h2>
+
+  <input type="text" name="number" placeholder="Введите число">
+  <p class="result">Слдержит цифру 3? - <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 14 -->
+
+<div id="task14">
+  <h2 class="title">14. Даны N абзацев и кнопка. По нажатию на кнопку запишите в конец каждого абзаца его порядковый
+    номер.</h2>
+
+  <p>Абзац №</p>
+  <p>Абзац №</p>
+  <p>Абзац №</p>
+  <p>Абзац №</p>
+  <p>Абзац №</p>
+
+  <button>Добавить порядковый номер</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 15 -->
+
+<div id="task15">
+  <h2 class="title">15. Даны N абзацев с числами. По нажатию на кнопку выведите эти числа в инпут через запятую в
+    порядке возрастания.</h2>
+
+  <p>8787</p>
+  <p>66</p>
+  <p>9879</p>
+  <p>2345</p>
+  <p>9898</p>
+
+  <button>Вывести числа</button>
+  <input type="text" name="numbers">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 16 -->
+
+<div id="task16">
+  <h2 class="title">16. Даны ссылки. По загрузке страницы добавьте в конец каждой ссылки ее href в круглых скобках.</h2>
+
+  <a href="111">Ссылка с href = </a>
+  <a href="222">Ссылка с href = </a>
+  <a href="333">Ссылка с href = </a>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 17 -->
+
+<div id="task17">
+  <h2 class="title">17. Даны ссылки. По загрузке страницы, если ссылка начинается с http://, то добавьте ей в конец
+    стрелку → </h2>
+
+  <a href="http://111">Ссылка с http:// </a>
+  <a href="http://222">Ссылка с http:// </a>
+  <a href="333">Ссылка НЕ с http:// </a>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 18 -->
+
+<div id="task18">
+  <h2 class="title">18. Даны N абзацев с числами. По нажатию на любой абзац запишите в него квадрат числа, которое в нем
+    находится. </h2>
+
+  <p>2</p>
+  <p>3</p>
+  <p>4</p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 19 -->
+
+<div id="task19">
+  <h2 class="title">19. Даны N абзацев с числами. По нажатию на любой абзац запишите в него квадрат числа, которое в нем
+    находится. </h2>
+
+  <img src="img/1.png" width="130" height="130" alt="img">
+  <img src="img/2.png" width="130" height="130" alt="img">
+  <img src="img/3.png" width="130" height="130" alt="img">
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 20 -->
+
+<div id="task20">
+  <h2 class="title">20. Даны картинки. По первому нажатию на любую картинку увеличьте ее в 2 раза. По второму нажатию -
+    уменьшите обратно. </h2>
+
+  <img src="img/1.png" width="130" height="130" alt="img">
+  <img src="img/2.png" width="130" height="130" alt="img">
+  <img src="img/3.png" width="130" height="130" alt="img">
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 21 -->
+
+<div id="task21">
+  <h2 class="title">21. Даны N картинок размера 30px. По нажатию на картинку под ними эта картинка появляется размером в
+    50px.</h2>
+
+  <img src="img/1.png" style="height: 30px;" alt="img" class="smallImg">
+  <img src="img/2.png" style="height: 30px;" alt="img" class="smallImg">
+  <img src="img/3.png" style="height: 30px;" alt="img" class="smallImg">
+  <img src="" class="newImg" style="height: 50px; display: block;" alt="imgBig">
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 22 -->
+
+<div id="task22">
+  <h2 class="title">22. Дан инпут. Реализуйте кнопочки +1, -1, которые будут увеличивать или уменьшать на 1 значение
+    инпута. Сделайте так, чтобы это значение не могло стать меньше нуля.</h2>
+
+  <input type="text" name="input" value="0">
+  <input type="submit" name="changeValue" value="+1">
+  <input type="submit" name="changeValue" value="-1">
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 23 -->
+
+<div id="task23">
+  <h2 class="title">23. Дан инпут. В него вводится число. По потери фокуса проверьте, что в нем лежит число от 1 до 100.
+    Если это так - покрасьте инпут в зеленый цвет, а если не так - в красный.</h2>
+
+  <input type="text" name="number" value="21">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 24 -->
+
+<div id="task24">
+  <h2 class="title">24. Дан инпут. Выделите любой текст на странице. По окончанию выделения этот текст должен записаться
+    в этот инпут.</h2>
+
+  <input type="text" name="anyText">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 25 -->
+
+<div id="task25">
+  <h2 class="title">25. Даны абзацы с числами. По нажатию на кнопку найдите абзац, в котором хранится максимальное
+    число, и сделайте его красного цвета.</h2>
+
+  <p>645</p>
+  <p>587</p>
+  <p>5</p>
+  <p>599</p>
+  <p>59</p>
+
+  <button>Самое большое число</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 26 -->
+
+<div id="task26">
+  <h2 class="title">26. Дан инпут. Даны абзацы. Пусть в этот инпут записывается суммарное количество нажатий по этим
+    абзацам.</h2>
+
+  <p>Абзац 1</p>
+  <p>Абзац 2</p>
+  <p>Абзац 3</p>
+  <p>Абзац 4</p>
+  <p>Абзац 5</p>
+
+
+  <input type="text" name="result">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 27 -->
+
+<div id="task27">
+  <h2 class="title">27. Дан инпут с числом. Сделайте так, чтобы каждую секунду в нем появлялся квадрат того числа,
+    которое в нем записано.</h2>
+
+  <input type="text" name="result" value="2">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 28 -->
+
+<div id="task28">
+  <h2 class="title">28. Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и
+    запишите в инпут.</h2>
+
+  <input type="text" name="randomStr">
+  <button>Сгенерировать</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 29 -->
+
+<div id="task29">
+  <h2 class="title">29. Модифицируйте предыдущую задачу так, чтобы был еще один инпут, в котором задается длина
+    случайной строки.</h2>
+
+  <input type="text" name="length" placeholder="Введите длину случайной строки">
+  <button>Сгенерировать</button>
+  <input type="text" name="randomStr" style="display: block; margin-top: 15px;">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 30 -->
+
+<div id="task30">
+  <h2 class="title">30. Модифицируйте предыдущую задачу так, чтобы был еще один инпут, в котором задаются символы, из
+    которых формируется эта случайна строка. Символы задаются без всяких разделитетей, в одну строку.</h2>
+
+  <input type="text" name="length" placeholder="Введите длину случайной строки">
+  <input type="text" name="symbol" placeholder="Символы без пробелов">
+  <button>Сгенерировать</button>
+  <input type="text" name="randomStr" style="display: block; margin-top: 15px;">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 31 -->
+
+<div id="task31">
+  <h2 class="title">31. Дан абзац. Сделайте так, чтобы каждую секунду он менял свой цвет с красного на зеленый и
+    наоборот.</h2>
+
+  <p>Абзац изменяющий цвет каждую секунду</p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 32 -->
+
+<div id="task32">
+  <h2 class="title">32. Дан инпут. В него вводится число. По потери фокуса сделайте так, чтобы в абзаце ниже начал
+    тикать обратный отсчет, начиная с введенного числа. Когда отсчет дойдет до нуля - он должен закончится.</h2>
+
+  <input type="text" name="number">
+  <p></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 33 -->
+
+<div id="task33">
+  <h2 class="title">33. Дан абзац. Дан массив цветов ['red', 'green', 'blue']. Сделайте так, чтобы каждую секунду абзац
+    менял свой цвет на определенное значение их массива: сначала 'red', потом 'green' и так далее. Как только цвета в
+    массиве закончатся - все начнется сначала. Количество цветов в массиве может быть любым. </h2>
+
+  <p>Абзац меняющий цвет, цвета берет из массива</p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 34 -->
+
+<div id="task34">
+  <h2 class="title">34. Дан абзац. Дан массив строк ['один', 'два', 'три']. Под абзацем ссылка 'следующая строка'. По
+    заходу на страницу в абзаце должен стоять нулевой элемент этого массива, а по нажатию на ссылку - вставлятся
+    следующий элемент. </h2>
+
+  <p></p>
+  <a href="#">Следующая строка</a>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 35 -->
+
+<div id="task35">
+  <h2 class="title">35. Даны инпуты с числами. Произвольное количетсво, пусть три. В первый инпут запишите 1, через
+    секунду во второй инпут запишите 2, еще через секунду в третий инпут 3, потом через секунду в первый инпут запишите
+    4, во второй 5 и так далее до бесконечности.</h2>
+
+  <input type="text" value="">
+  <input type="text" value="">
+  <input type="text" value="">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 36 -->
+
+<div id="task36">
+  <h2 class="title">36. Дана ссылка. Дан чекбокс. По нажатию на ссылку меняйте состояние чекбокса с отмеченного на
+    неотмеченное и наоборот.</h2>
+
+  <input type="checkbox">
+  <a href="#" style="display: inline;">Изменение чекбокса</a>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 37 -->
+
+<div id="task37">
+  <h2 class="title">37. Даны чекбокс. Дана кнопка. По нажатию на кнопку сделайте все чекбоксы отмеченными.</h2>
+
+  <input type="checkbox">
+  <input type="checkbox">
+  <input type="checkbox">
+  <input type="checkbox">
+
+  <button>Отметить все чекбоксы</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 38 -->
+
+<div id="task38">
+  <h2 class="title">38. Спросите у пользователя какой язык (html, css, js, php) он знает с помощью радио кнопочек.
+    Выведите этот язык в абзац.</h2>
+
+  <p>Какой язык программирования вы знаете?</p>
+
+  <input type="radio" value="html">html
+  <input type="radio" value="css">css
+  <input type="radio" value="js">js
+  <input type="radio" value="php">php
+
+  <p>Вы знаете: <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 39 -->
+
+<div id="task39">
+  <h2 class="title">39. Спросите у пользователя какие языки (html, css, js, php) он знает с помощью чекбоксов. Выбранные
+    языки должны выводится в абзац ниже через запятую.</h2>
+
+  <p>Какой язык программирования вы знаете?</p>
+
+  <input type="checkbox" value="html">html
+  <input type="checkbox" value="css">css
+  <input type="checkbox" value="js">js
+  <input type="checkbox" value="php">php
+
+  <p>Вы знаете: <span></span></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 40 -->
+
+<div id="task40">
+  <h2 class="title">40. Дан чекбокс. Дан инпут. Сделайте так, что если чекбокс отмечен - инпут видимый, если не отмечен
+    - не видимый.</h2>
+
+  <p>Какой язык программирования вы знаете?</p>
+
+  <input type="checkbox" name="check" checked>
+  <input type="text" name="text" placeholder="Видимый/Невидимый">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 41 -->
+
+<div id="task41">
+  <h2 class="title">41. Даны чекбоксы. Под каждым чекбоксом размещен абзац. Сделайте так, что если чекбокс отмечен -
+    соответствующий абзац видимый, а если не отмечен - не видимый.</h2>
+
+
+  <input type="checkbox" name="check" checked>
+  <p style="display: inline;">Абзац видимый или невидимый</p>
+
+  <br>
+
+  <input type="checkbox" name="check">
+  <p style="display: inline;">Абзац видимый или невидимый</p>
+
+  <br>
+
+  <input type="checkbox" name="check" checked>
+  <p style="display: inline;">Абзац видимый или невидимый</p>
+
+  <br>
+
+  <input type="checkbox" name="check">
+  <p style="display: inline;">Абзац видимый или невидимый</p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 42 -->
+
+<div id="task42">
+  <h2 class="title">42. Дан инпут. Даны li. В инпут пишется номер. Сделайте так, чтобы по вводу числа, li с заданным
+    номером покрасился в красный цвет.</h2>
+
+  <input type="text">
+
+  <ol>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+  </ol>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 43 -->
+
+<div id="task43">
+  <h2 class="title">43. Дан абзац. Даны чекбоксы 'перечеркнуть', 'сделать жирным', 'сделать красным'. Если
+    соответствующий чекбокс отмечен - заданное действие происходит с абзацем (становится красным, например). Если
+    чекбоксу снять отметку - действие отменяется.</h2>
+
+  <p>Абзац</p>
+
+  <input type="checkbox" value="text-decoration:line-through">Перечеркнуть
+  <input type="checkbox" value="font-weight:bold">Сделать жирным
+  <input type="checkbox" value="color:red">Сделать красным
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 44 -->
+
+<div id="task44">
+  <h2 class="title">44. Дан блок с кнопкой 'закрыть блок'. По нажатию на эту кнопку блок должен исчезнуть. Кнопка
+    размещается внутри блока и должна исчезнуть вместе с ним. Блоков может быть любое количество, каждый из них
+    закрывает своя кнопка.</h2>
+
+  <div>
+    <p>По нажатию на эту кнопку</p>
+    <button>Закрыть</button>
+  </div>
+
+  <div>
+    <p>По нажатию на эту кнопку</p>
+    <button>Закрыть</button>
+  </div>
+
+  <div>
+    <p>По нажатию на эту кнопку</p>
+    <button>Закрыть</button>
+  </div>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 45 -->
+
+<div id="task45">
+  <h2 class="title">45. В инпут через запятую вводятся страны. По нажатию на кнопку сделайте так, чтобы эти страны
+    записались в ul под инпутом (каждая страна отдельный li).</h2>
+
+  <input type="text" name="country" placeholder="Страны через запятую">
+  <button>Создать список стран</button>
+  <ul></ul>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 46 -->
+
+<div id="task46">
+  <h2 class="title">46. В инпут вводится страна и нажимается Enter. По нажатию на Enter сделайте так, чтобы введенные
+    страны записывались в абзац под инпутом через запятую. То есть по каждому нажатию Enter в абзац будут добавляться
+    все новые и новые страны.</h2>
+
+  <input type="text" name="country" placeholder="Введите страну и нажмите Enter">
+  <p></p>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 47 -->
+
+<div id="task47">
+  <h2 class="title">47. На странице есть дивы. В них есть текст. Обойдите все дивы и обрежьте тот текст, который в них
+    стоит так, чтобы он стал длиной 10 символов. И добавьте троеточие в конец обрезанного текста</h2>
+
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+
+  <button>Обрезать</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 48 -->
+
+<div id="task48">
+  <h2 class="title">48. Дана таблица с числами. По нажатию на кнопку найдите ячейку, в которой хранится максимальное
+    число, и сделайте ее фон красным.</h2>
+
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <button>Жми</button>
+
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 49 -->
+
+<div id="task49">
+  <h2 class="title">49. Дана таблица с числами. По нажатию на кнопку найдите ячейку, в которой хранится максимальное
+    число, и сделайте ее фон красным.</h2>
+
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <button>Жми</button>
+
+  <input type="text">
+</div>
+
+<hr>
+<br>
+
+<!-- Task 50 -->
+
+<div id="task50">
+  <h2 class="title">50. Дана таблица с числами. По нажатию на кнопку в последний ряд таблицы в каждую ячейку запишите
+    сумму чисел в столбце таблицы, расположенном над определенной ячейкой.</h2>
+
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <button>Жми</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 51 -->
+
+<div id="task51">
+  <h2 class="title">51. Дана таблица с числами. По нажатию на ячейку она активируется и становится красного цвета.
+    Активировать можно много ячеек. Под таблицей кнопка. По нажатию по этой кнопке в абзац ниже выведите сумма
+    активированных ячеек. Реализуйте кнопку 'сбросить активированные ячейки'.</h2>
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <button class="go">Количество красных</button>
+  <p>Активированных ячеек - <span></span></p>
+  <button class="clear">Очистить</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 52 -->
+
+<div id="task52">
+  <h2 class="title">52. Дана таблица. По нажатию на ячейку в ней появляется инпут с содержимым этой ячейки и кнопка
+    сохранить. Можно поредактировать текст в инпуте, сохранить - и текст ячейки поменяется.</h2>
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 53 -->
+
+<div id="task53">
+  <h2 class="title">53. Реализуйте раскрывающийся список. По умолчанию есть список стран (ul), по нажатию на страну
+    внутри li со страной появляется список городов.</h2>
+
+  <ul>
+    <li>
+      <p style="cursor: pointer;">Россия</p>
+      <ul style="display: none;">
+        <li>Город 1</li>
+        <li>Город 2</li>
+        <li>Город 3</li>
+        <li>Город 4</li>
+      </ul>
+    </li>
+
+    <li>
+      <p style="cursor: pointer;">Украина</p>
+      <ul style="display: none;">
+        <li>Город 1</li>
+        <li>Город 2</li>
+        <li>Город 3</li>
+        <li>Город 4</li>
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+<!-- Task 54 -->
+
+<div id="task54">
+  <h2 class="title">54. Даны два селекта. В первом находятся страны, во втором - города. Сделайте так, чтобы когда
+    выбирается определенная страна - в другом селекте появлялись города этой страны. В абзац ниже пишите выбранную
+    страну и город через запятую.</h2>
+
+  <select name="country" class="country">
+    <option value="aus">Австралия</option>
+    <option value="jap">Япония</option>
+    <option value="sar">ЮАР</option>
+  </select>
+
+  <select name="cities" class="cities"></select>
+  <p></p>
+
+</div>
+
+<hr>
+<br>
+
+<script src="script.js"></script>
+</body>
+</html>
